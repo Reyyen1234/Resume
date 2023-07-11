@@ -1,44 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- <!DOCTYPE html>: defines that this document is an HTML5 document -->
+<!-- يحدد أن هذا المستند هو مستند HTML5 -->
 
-<head>
+<html lang="en"> <!-- <html></html>:  element is the root element of an HTML page -->
+<!-- العنصر هو العنصر الجذر لصفحة HTML-->
+
+<head> <!-- <head>: element contains meta information about the HTML page -->
+    <!-- يحتوي العنصر على معلومات تعريفية حول صفحة HTML-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Resume</title>
+    <title>Resume</title> <!-- <title>:element specifies a title for the HTML page 
+        (which is shown in the browser's title bar or in the page's tab -->
+    <!-- يحدد العنصر عنوانًا لصفحة HTML (الذي يظهر في شريط عنوان المتصفح أو في علامة تبويب الصفحة) -->
 
 </head>
 
 <body>
+    <!-- <body>: element defines the document's body, and is a container for all the visible contents,
+     such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+    <!-- يحدد العنصر نص المستند ، 
+    وهو عبارة عن حاوية لجميع المحتويات المرئية ، مثل العناوين والفقرات والصور والجداول والقوائم وما إلى ذلك.-->
     <div class="container">
         <div class="profile">
             <div class="profile-contanier">
                 <div class="profile-profileImg">
                     <img src="./images/personal.jpg" alt="personal photo">
+                    <!-- <img>: to add an image -->
+                    <!-- لاضافة صورة نستخدم هاد التاغ -->
                 </div>
                 <div>
                     <h1 class="profile-name">
+                        <!--  <h1>:element defines a large heading, 
+                            headers have numbered from 1 -> 6 you can use this number to defined the size of text-->
+                        <!--  يحدد العنصر عنوانًا كبيرًا ، 
+                            وقد تم ترقيم الرؤوس من 1 -> 6 يمكنك استخدام هذاالارقام بين هذين الرقمين لتحديد حجم النص-->
                         <span class="first-name">Reyyen</span>
                         <span class="last-name">Cuneyt</span>
+                        <!-- <span>: tag is an inline container used to mark up a part of a text, or a part of a document. -->
+                        <!-- العلامة عبارة عن حاوية مضمنة تستخدم لتمييز جزء من نص أو جزء من مستند-->
                     </h1>
                     <p class="profile-title"> Web Designer</p>
+                    <!-- <p>: element defines a paragraph -->
+                    <!-- عنصر يحدد فقرة -->
                     <p class="description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nihil similique voluptatum,
                         labore molestiae mollitia sit illo maxime voluptatibus. Id sequi architecto debitis iusto labore
                         adipisci quam repudiandae voluptas temporibus?
                     </p>
                     <a class="downloadBtn" href="./CV - Reyyen cüneyt new one en.pdf" download="resume.pdf"> Download
-                        Btn</a>
+                        Btn</a> <!-- <a>: it is help to add a link to our website -->
+                    <!-- من المفيد إضافة ارتباط إلى موقعنا-->
                 </div>
             </div>
         </div>
-        <div class="group1">
+        <div class="group1"> <!-- <div>: tag is easily styled by using the class or id attribute. -->
+            <!-- يتم تصميم العلامة بسهولة باستخدام سمة الفئة أو المعرف.-->
             <div class="skills">
                 <h3 class="title">Expertise</h3>
                 <ul class="skill-list description">
-                    <li>HTML</li>
+                    <!-- <ul>: An unordered HTML list -->
+                    <!-- قائمة HTML غير مرتبة -->
+                    <li>HTML</li> <!-- <li>: to make a list item -->
+                    <!-- لعمل عنصر قائمة -->
                     <li>CSS</li>
                     <li>JAVASCRIPT</li>
                 </ul>
@@ -163,8 +188,9 @@
                 <h3 class="title">socials</h3>
                 <div class="social_items">
                     <a href="#" target="_blank" class="social_item">
-                        <i data-feather="github"></i>
-                        <span>/reyyencuneyt</span></a>
+                        <i data-feather="github"></i> <!-- to can add an icon -->
+                        <span>/reyyencuneyt</span>
+                    </a>
                     <a href="#" target="_blank" class="social_item">
                         <i data-feather="linkedin"></i>
                         <span>/reyyencuneyt</span></a>
